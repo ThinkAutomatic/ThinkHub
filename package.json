@@ -1,0 +1,17 @@
+{
+  "name": "ThinkHub",
+  "version": "0.0.0",
+  "description": "",
+  "main": "ThinkHub.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Harris <steve@thinkautomatic.io> (http://thinkautomatic.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.72.0",
+    "thinkdevice": "^1.0.0",
+    "url": "^0.11.0"
+  }
+}

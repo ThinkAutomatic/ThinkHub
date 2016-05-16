@@ -1,11 +1,15 @@
 # ThinkHub
-This serves as a local area network proxy for lightweight IoT devices that do not have direct ssl enabled connectivity to the Internet such as Particle devices using the <a href="https://github.com/ThinkAutomatic/ThinkParticle" target="_blank">ThinkParticle</a> library.
+This serves as a local area network proxy to the Think Automatic machine learning platform for lightweight IoT devices that do not have direct ssl enabled connectivity such as Particle devices using the <a href="https://github.com/ThinkAutomatic/ThinkParticle" target="_blank">ThinkParticle</a> library.
 
 ## Installation 
+Install and run the ThinkHub proxy via npm and Node.js on any machine on the same LAN as your lightweight IoT device(s).
 ```
-npm install thinkhub
+cd ~
+mkdir ThinkHub
+cd ThinkHub
+npm install ThinkHub
 ```
-Then run it.
+Then to run it.
 ```
 node .
 ```
@@ -13,4 +17,4 @@ This module uses the <a href="https://github.com/ThinkAutomatic/thinkdevice" tar
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
